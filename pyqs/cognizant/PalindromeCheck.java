@@ -1,5 +1,3 @@
-package pyqs.cognizant;
-
 import java.util.Scanner;
 import java.util.Vector;
 

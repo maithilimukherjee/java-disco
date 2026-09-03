@@ -1,4 +1,3 @@
-package pyqs.cognizant;
 import java.util.Scanner;
 
 public class MaxProfit {
