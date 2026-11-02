@@ -1,3 +1,7 @@
+package sliding_windows;
+
+import java.util.HashSet;
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         
@@ -20,5 +24,12 @@ class Solution {
         }
 
         return len;
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        String s = "abcabcbb";
+        int result = sol.lengthOfLongestSubstring(s);
+        System.out.println(result); // Output: 3
     }
 }
